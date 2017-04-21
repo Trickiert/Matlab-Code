@@ -17,7 +17,7 @@ fontSize = 22;
 folder = fileparts(which('Video1.mpg')); % Determine where demo folder is (works with all versions).
 % Pick one of the two demo movies shipped with the Image Processing Toolbox.
 % Comment out the other one.
-movieFullFileName = fullfile(folder, 'Video1.mpg');
+movieFullFileName = fullfile(folder, 'Video2.mpg');
 % movieFullFileName = fullfile(folder, 'traffic.avi');
 % Check to see that it exists.
 if ~exist(movieFullFileName, 'file')
